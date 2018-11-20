@@ -10,6 +10,7 @@ https://developer.mozilla.org/bm/docs/Web/JavaScript
 
 http://kangax.github.io/compat-table/es6/
 
+
 ----------------------------------------------------------------------
 
 .js is
@@ -87,18 +88,6 @@ Level-3:
 Level-4:
     => Tools
 ------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
