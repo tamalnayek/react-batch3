@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import Greeting from './components/Greeting';
+import CounterBox from './components/CounterBox';
 
 class App extends Component {
   constructor(props) {
@@ -22,6 +23,8 @@ class App extends Component {
       <div className="container">
         <hr />
         <h1>{title} - by <span className="badge badge-dark">{author}</span></h1>
+        <hr />
+        <CounterBox />
         <hr />
         <button onClick={e => this.changeMessage('good morning')} className="btn btn-primary">GM</button>&nbsp;
         <button onClick={e => this.changeMessage('good noon')} className="btn btn-primary">GN</button>&nbsp;

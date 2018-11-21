@@ -1,0 +1,27 @@
+
+
+
+
+To separate state/mode from view,
+
+
+existing solution was ==> MVC pattern
+
+
+
+M1        V1
+M2        V2
+M3  /     V3
+    \      
+M4        V4
+
+
+
+ MVC always do data-binding in 2-way directions
+
+   => defficult to debug & predict data-flow between UI components ( vews )
+
+
+   soln:
+
+        => uni-directional data-flow : flux pattern

@@ -21,9 +21,9 @@ class Greeting extends Component {
     }
     componentDidMount() {
         console.log('Greeting::componentDidMount()');
-        this.interval = setInterval(() => {
-            this.forceUpdate();
-        }, 500)
+        // this.interval = setInterval(() => {
+        //     this.forceUpdate();
+        // }, 500)
     }
     shouldComponentUpdate(nextProps, nextState) {
         console.log('Greeting::shouldComponentUpdate()');
@@ -33,7 +33,7 @@ class Greeting extends Component {
         console.log('Greeting::componentDidUpdate()');
     }
     componentWillUnmount() {
-        clearInterval(this.interval)
+        //clearInterval(this.interval)
         console.log('Greeting::componentWillUnmount()');
     }
 }
